@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Friends!"
+        android:textSize="@dimen/textHeaderSize"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_margin="@dimen/commonMargin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Screen"
+        android:textColor="@color/orange"
+        android:gravity="center"
+        android:textSize="@dimen/textNormal"/>
+
+    <Button
+        android:id="@+id/startServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/orange"
+        android:layout_marginTop="@dimen/commonMargin"
+        android:text="@string/startService"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="@dimen/textNormal"/>
+
+    <Button
+        android:id="@+id/stopServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/green"
+        android:text="@string/stopService"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="@dimen/textNormal"
+        android:layout_marginBottom="@dimen/commonMargin"/>
+</LinearLayout>

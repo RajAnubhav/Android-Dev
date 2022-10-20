@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textHeaderSize">30dp</dimen>
+    <dimen name="commonMargin">15dp</dimen>
+    <dimen name="textNormal">24dp</dimen>
+</resources>
